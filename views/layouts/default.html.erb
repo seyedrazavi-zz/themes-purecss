@@ -38,10 +38,12 @@
                         <%= link_to(t('.statuses'), {:controller => 'notes'}, {:class => 'pure-button'}) %>
                     </li>
                     <% end %>
-                    <% Tag.each do |tag| %>
+                    <% Tag.all.each do |tag| %>
+                    <% if tag.articles.count > 0 %>
                     <li class="nav-item">
                         <%=link_to tag.display_name, tag.permalink_url(nil, true), :rel => "tag", :class => "pure-button"%>
                     </li>
+                    <% end %>
                     <% end %>
                 </ul>
             </nav>
