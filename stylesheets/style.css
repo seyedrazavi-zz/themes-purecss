@@ -216,6 +216,11 @@ h3 {
     text-shadow: 0px 0px 3px rgba(0,0,0, .5);
 }
 
+.share {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 @media (min-width: 48em) {
     .content {
         padding: 2em 3em 0;
