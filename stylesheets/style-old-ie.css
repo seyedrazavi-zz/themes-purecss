@@ -145,6 +145,14 @@ h3 {
     background: #df2d4f;
 }
 
+.post-category-reviews {
+    background: #bfbf67;
+}
+
+.post-category-history {
+    background: #a69d95;
+}
+
 .post-images {
     margin: 1em 0;
 }
