@@ -36,17 +36,6 @@ h3 {
     margin: 3em auto;
 }
 
-.banner {
-    background: transparent url(/images/theme/blog_banner.jpg) 0 0 no-repeat fixed;
-    text-align: center;
-    background-size: cover;
-    
-    height: 184px;
-    width: 100%;
-    margin-bottom: 3em;
-    display: table;
-}
-
 .sidebar {
     background: rgb(61, 79, 93);
     color: #fff;
