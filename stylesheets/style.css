@@ -34,6 +34,12 @@ h3 {
     margin: 3em auto;
 }
 
+.banner {
+    text-align: right;
+    top: auto;
+    margin: 0 auto;
+}
+
 .sidebar {
     background: rgb(61, 79, 93);
     color: #fff;
