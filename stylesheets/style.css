@@ -35,9 +35,7 @@ h3 {
 }
 
 .banner {
-    text-align: right;
-    top: auto;
-    margin: 0 auto;
+    background: url(/images/theme/blog_banner.jpg) top right no-repeat;
 }
 
 .sidebar {
