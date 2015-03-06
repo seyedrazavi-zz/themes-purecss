@@ -3,14 +3,6 @@
   <%= render 'articles/meta', article: @article %>
   <hr/>
   <%= render 'articles/protected_article_content', { article: @article } %>
-  <br/>
-  <div class='share'>
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_email_large' displayText='Email'></span>
-  </div>
-  
   <hr/>
 
     <% if @article.allow_comments? or @article.published_comments.size > 0 -%>
