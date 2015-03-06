@@ -54,7 +54,9 @@
             <%= render_sidebars %>
         </div>
     </div>
-
+    <div class="pure-u-1">
+        <img src="/images/theme/blog_banner.jpg" alt="<%= this_blog.blog_name %> <%= this_blog.blog_subtitle %>" title="<%= this_blog.blog_name %> <%= this_blog.blog_subtitle %>"/>
+    </div>
     <div class="content pure-u-1 pure-u-md-3-4">
         <div>
             <%= yield %>
