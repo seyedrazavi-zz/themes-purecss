@@ -42,6 +42,7 @@ h3 {
     height: 184px;
     width: 100%;
     margin-bottom: 3em;
+    display: table;
 }
 
 .sidebar {
