@@ -37,14 +37,14 @@ h3 {
 }
 
 .banner {
-    background: transparent url(/images/theme/blog_banner.jpg) 0 0 no-repeat fixed;
+    background: transparent url(/images/theme/blog_banner.jpg) 0 0 no-repeat;
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/theme/blog_banner.jpg', sizingMethod='scale');
     
-    height: 184px;
+    height: 110px;
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 0.5em;
     display: table;
 }
 
