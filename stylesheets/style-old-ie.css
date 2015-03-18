@@ -175,6 +175,10 @@ h3 {
     background: #a69d95;
 }
 
+.post-category-classics {
+        background: #642EFE;
+    }
+    
 .post-images {
     margin: 1em 0;
 }
@@ -281,4 +285,8 @@ h3 {
 .share {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#feedlyFollow {
+    margin-top: 50%;
 }
